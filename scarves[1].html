@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Zeeza Exports stoles and scarves — wholesale sourcing, custom development, private label and global dispatch.">
+<title>Zeeza Exports | Stoles & Scarves | Wholesale Collection</title>
+<style>
+:root{--ink:#171513;--muted:#6e6962;--cream:#f5efe5;--paper:#fffdf9;--gold:#b18b4e;--line:#ddd3c5}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,sans-serif}
+a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px 5vw;background:rgba(251,250,247,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(23,23,23,.1)}
+.logo img{width:158px;max-height:48px;display:block;object-fit:contain;border-radius:6px}
+.links{display:flex;align-items:center;gap:24px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#444}
+.cta{background:#171513;color:#fff;padding:12px 18px;border-radius:999px;font-weight:700}
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:650px;background:linear-gradient(110deg,#f3ecdf,#e1c9b5)}
+.hero-copy{padding:95px 7vw 75px;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:11px;letter-spacing:.3em;font-weight:800;color:#80643b}
+h1{font:clamp(4.2rem,8vw,7.4rem)/.86 Georgia,serif;margin:20px 0 22px;letter-spacing:-.035em}
+.hero h2{font:400 clamp(1.25rem,2.2vw,1.65rem)/1.35 Georgia,serif;margin:0 0 22px}
+.hero p{max-width:590px;color:#5d5851;line-height:1.85;font-size:15px}
+.pills{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.pill{font-size:11px;padding:9px 12px;border:1px solid rgba(128,100,59,.28);border-radius:999px;background:rgba(255,255,255,.35)}
+.hero-art{display:flex;align-items:center;justify-content:center;padding:48px;position:relative;overflow:hidden}
+.hero-art::before,.hero-art::after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(128,100,59,.22)}
+.hero-art::before{width:510px;height:510px}
+.hero-art::after{width:390px;height:390px}
+.fabric-stack{position:relative;width:min(86%,520px);height:430px;perspective:1200px}
+.fabric{position:absolute;border-radius:28px;box-shadow:0 28px 55px rgba(43,29,15,.2);transform-style:preserve-3d}
+.fabric.one{width:74%;height:58%;right:5%;top:6%;background:linear-gradient(135deg,#8b5c42,#c89365 35%,#54483c 70%,#b28b64);transform:rotate(-8deg) rotateY(-12deg);}
+.fabric.two{width:76%;height:58%;left:7%;top:25%;background:repeating-linear-gradient(135deg,#163f48 0 18px,#d0a04f 18px 25px,#efe0c1 25px 42px);transform:rotate(7deg) rotateY(10deg);}
+.fabric.three{width:72%;height:54%;left:14%;bottom:0;background:radial-gradient(circle at 20% 30%,#d7b56b 0 5%,transparent 6%),radial-gradient(circle at 70% 60%,#f1dfbc 0 4%,transparent 5%),linear-gradient(135deg,#29231f,#78624c);background-size:70px 70px,85px 85px,100% 100%;transform:rotate(-3deg) translateZ(30px);}
+.fabric-label{position:absolute;z-index:5;left:16px;bottom:28px;background:rgba(23,21,19,.9);color:#fff;padding:12px 15px;border-radius:12px;font-size:10px;letter-spacing:.16em;text-transform:uppercase}
+.strip{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-bottom:1px solid var(--line)}
+.strip div{padding:25px 18px;text-align:center;border-right:1px solid var(--line)}
+.strip strong{display:block;font:700 1rem Georgia,serif;margin-bottom:6px}
+.strip span{font-size:11px;color:var(--muted);line-height:1.5}
+.wrap{max-width:1220px;margin:auto;padding:78px 5vw}
+.tag{font-size:10px;letter-spacing:.28em;font-weight:800;color:#876c42}
+.title{font:clamp(2.6rem,5vw,4.4rem)/1 Georgia,serif;margin:10px 0 15px;letter-spacing:-.025em}
+.intro{max-width:720px;color:var(--muted);line-height:1.8}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:38px}
+.card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff;min-height:210px;position:relative;overflow:hidden}
+.card::after{content:"";position:absolute;width:120px;height:120px;border-radius:50%;right:-45px;bottom:-45px;background:#eee4d6}
+.card h3{font:1.3rem Georgia,serif;margin:0 0 10px;position:relative;z-index:2}
+.card p{font-size:13px;line-height:1.7;color:var(--muted);position:relative;z-index:2}
+.visuals{background:#f7f2e9}
+.visual-grid{display:grid;grid-template-columns:1.25fr .85fr .85fr;grid-template-rows:270px 270px;gap:16px;margin-top:38px}
+.visual{border-radius:22px;overflow:hidden;position:relative;box-shadow:0 18px 45px rgba(35,25,15,.13);border:1px solid rgba(126,102,72,.18)}
+.visual:first-child{grid-row:1/3;background:linear-gradient(145deg,#1d3f45,#c59b57 45%,#e9dbc0)}
+.visual:nth-child(2){background:linear-gradient(135deg,#2a2724,#75604e 50%,#d4b57d)}
+.visual:nth-child(3){background:repeating-linear-gradient(120deg,#e9dcc5 0 18px,#806b55 18px 31px,#2e4a4f 31px 44px)}
+.visual:nth-child(4){background:linear-gradient(145deg,#c77b53,#e6b18b 48%,#3c4b4c)}
+.visual:nth-child(5){background:radial-gradient(circle at 25% 25%,#e7c47b 0 6%,transparent 7%),radial-gradient(circle at 70% 65%,#e8dfc8 0 7%,transparent 8%),#514b43;background-size:90px 90px,110px 110px,100% 100%}
+.visual span{position:absolute;left:18px;bottom:18px;padding:9px 12px;border-radius:999px;background:rgba(20,18,15,.82);color:#fff;font-size:10px;letter-spacing:.13em;text-transform:uppercase}
+.buyer{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.panel{border:1px solid var(--line);border-radius:22px;background:#fff;padding:30px}
+.panel h3{font:1.5rem Georgia,serif;margin:0 0 12px}
+.panel p,.panel li{font-size:13px;color:var(--muted);line-height:1.8}
+.panel ul{padding-left:18px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);margin-top:35px}
+.step{padding:25px;background:#fff;border-right:1px solid var(--line)}
+.step:last-child{border-right:0}
+.step b{font:2rem Georgia,serif;color:var(--gold)}
+.step h3{font-size:14px;margin:8px 0}
+.step p{font-size:12px;color:var(--muted);line-height:1.65}
+.enquiry{background:linear-gradient(135deg,#f2eadc,#fbfaf7,#eee5d7)}
+.formbox{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px}
+.form{background:#fff;border:1px solid rgba(0,0,0,.08);padding:30px;border-radius:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.field{display:flex;flex-direction:column;gap:7px}
+.field.full{grid-column:1/-1}
+label{font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+input,textarea,select{border:1px solid #d8d0c5;padding:13px;border-radius:9px;font:inherit;background:#fff}
+textarea{min-height:115px;resize:vertical}
+.submit{border:0;background:#171513;color:#fff;padding:14px 20px;border-radius:999px;font-weight:800;width:100%;margin-top:15px}
+.note{font-size:10px;color:#888;text-align:center;margin-top:10px}
+footer{background:#171513;color:#fff;text-align:center;padding:55px 24px}
+footer strong{font:1.6rem Georgia,serif}
+footer p{max-width:600px;margin:12px auto;color:#aaa;line-height:1.7;font-size:12px}
+@media(max-width:900px){.links a:not(.cta){display:none}.hero{grid-template-columns:1fr}.hero-art{min-height:480px}.strip,.cards,.process{grid-template-columns:1fr 1fr}.visual-grid{grid-template-columns:1fr 1fr;grid-template-rows:300px 300px 300px}.visual:first-child{grid-row:auto}.buyer,.formbox{grid-template-columns:1fr}}
+@media(max-width:560px){.nav{padding:10px 18px}.logo img{width:145px}.hero-copy{padding:68px 22px 55px}h1{font-size:4.3rem}.hero-art{padding:25px;min-height:400px}.fabric-stack{width:100%;height:340px}.strip,.cards,.process{grid-template-columns:1fr}.strip div{border-right:0;border-bottom:1px solid var(--line)}.wrap{padding:58px 22px}.visual-grid{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(5,280px)}.visual:first-child{grid-row:auto}.grid{grid-template-columns:1fr}.field.full{grid-column:auto}}
+</style>
+
+<style id="professional-stoles-gallery">
+.photo-hero{background:radial-gradient(circle at 50% 45%,#f4e8d8,#cbb69d)!important;padding:35px!important}
+.hero-photo-wrap{width:min(92%,610px);position:relative;transform:perspective(1200px) rotateY(-4deg) rotateX(1deg);transition:.45s}
+.hero-photo-wrap:hover{transform:perspective(1200px) rotateY(-1deg) rotateX(0) translateY(-5px)}
+.hero-photo-wrap img{display:block;width:100%;aspect-ratio:1.05/1;object-fit:cover;border-radius:22px;box-shadow:0 34px 65px rgba(43,29,15,.25);filter:saturate(1.03) contrast(1.02)}
+.hero-photo-wrap span{position:absolute;left:18px;top:18px;background:rgba(23,21,19,.88);color:#fff;padding:9px 12px;border-radius:999px;font-size:9px;letter-spacing:.14em;font-weight:800}
+.gallery-toolbar{display:flex;flex-wrap:wrap;gap:9px;margin:34px 0 22px}
+.gallery-toolbar span{padding:9px 13px;border-radius:999px;background:#ece7df;color:#4d4942;font-size:10px;letter-spacing:.08em;font-weight:700}
+.gallery-toolbar span.active{background:#171513;color:#fff}
+.photo-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.product-card{background:#fff;border:1px solid #e0d7ca;border-radius:20px;overflow:hidden;box-shadow:0 14px 38px rgba(37,28,18,.08);transition:transform .3s ease,box-shadow .3s ease}
+.product-card:hover{transform:translateY(-6px);box-shadow:0 24px 48px rgba(37,28,18,.14)}
+.product-photo{position:relative;background:#eee6da;aspect-ratio:1/1.08;overflow:hidden}
+.product-photo img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s ease,filter .3s ease}
+.product-card:hover .product-photo img{transform:scale(1.035);filter:saturate(1.04)}
+.product-photo span{position:absolute;top:12px;left:12px;padding:7px 9px;border-radius:999px;background:rgba(23,21,19,.84);color:#fff;font-size:8px;letter-spacing:.13em;font-weight:800}
+.product-copy{padding:17px 17px 20px}
+.product-kicker{font-size:8px;letter-spacing:.2em;color:#967747;font-weight:800}
+.product-copy h3{font:1.16rem Georgia,serif;margin:5px 0 6px}
+.product-copy p{font-size:11px;color:#756e65;line-height:1.55;margin:0}
+.gallery-note{margin-top:22px;padding:16px 18px;background:#faf7f1;border-left:3px solid #b18b4e;color:#756e65;font-size:11px;line-height:1.7}
+.gallery-note strong{color:#403a32}
+@media(max-width:1000px){.photo-gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){
+  .photo-hero{padding:20px!important}
+  .hero-photo-wrap{width:100%;transform:none}
+  .hero-photo-wrap img{aspect-ratio:1/1.02}
+  .photo-gallery{grid-template-columns:1fr;gap:16px}
+  .product-photo{aspect-ratio:1/1.05}
+  .gallery-toolbar{gap:7px}
+  .gallery-toolbar span{font-size:9px;padding:8px 10px}
+}
+</style>
+
+
+
+<style id="zeeza-final-premium">
+:root{
+  --ink:#171513;--muted:#6e6962;--paper:#fffdf9;--cream:#f5efe5;
+  --gold:#b88b43;--gold-dark:#8f6b32;--line:#ddd4c7;
+}
+body{letter-spacing:.005em}
+.nav{
+  padding:12px clamp(18px,5vw,72px);
+  box-shadow:0 1px 0 rgba(20,18,15,.08);
+}
+.logo img{width:166px;max-height:50px}
+.links{gap:26px}
+.links a:not(.cta){transition:color .2s ease}
+.links a:not(.cta):hover{color:var(--gold-dark)}
+.cta{
+  padding:13px 20px;
+  box-shadow:0 7px 18px rgba(23,21,19,.12);
+  transition:transform .2s ease,background .2s ease;
+}
+.cta:hover{transform:translateY(-1px);background:#2a2723}
+.hero{
+  min-height:690px;
+  background:linear-gradient(112deg,#f4eee4 0%,#eee4d5 48%,#d7c0a5 100%);
+}
+.hero-copy{padding:clamp(68px,8vw,105px) clamp(24px,7vw,105px)}
+.eyebrow{color:var(--gold-dark)}
+.hero h1{letter-spacing:-.045em}
+.hero p{font-size:15.5px;max-width:610px}
+.hero-art{
+  min-height:620px;
+  background:radial-gradient(circle at 50% 44%,#f7ecdc 0%,#d7c2aa 72%);
+}
+.hero-photo-wrap{
+  width:min(92%,640px)!important;
+  transform:perspective(1400px) rotateY(-3deg) rotateX(1deg)!important;
+}
+.hero-photo-wrap img{
+  image-rendering:auto;
+  object-fit:cover!important;
+  object-position:center;
+  filter:none!important;
+  box-shadow:0 34px 75px rgba(42,28,14,.28)!important;
+}
+.strip{box-shadow:0 8px 24px rgba(30,24,17,.035)}
+.wrap{max-width:1280px}
+.title{letter-spacing:-.035em}
+.photo-gallery{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:20px!important;
+}
+.product-card{
+  border-radius:22px!important;
+  box-shadow:0 12px 35px rgba(37,28,18,.075)!important;
+}
+.product-photo{
+  aspect-ratio:1/1.08!important;
+  background:#eee7dc;
+}
+.product-photo img{
+  image-rendering:auto;
+  object-fit:cover!important;
+  object-position:center;
+  filter:none!important;
+  transform:none!important;
+}
+.product-card:hover .product-photo img{
+  transform:scale(1.018)!important;
+}
+.product-copy{padding:18px 18px 21px}
+.product-copy h3{font-size:1.22rem}
+.product-copy p{font-size:11.5px}
+.gallery-toolbar span{transition:.2s ease}
+.gallery-toolbar span:hover{background:#ddd6cc}
+.gallery-note{
+  border-radius:0 12px 12px 0;
+  border-left-width:3px;
+}
+.form{
+  box-shadow:0 18px 50px rgba(35,27,18,.07);
+}
+input,textarea,select{
+  outline:none;
+  transition:border-color .2s ease,box-shadow .2s ease;
+}
+input:focus,textarea:focus,select:focus{
+  border-color:#b18b4e;
+  box-shadow:0 0 0 3px rgba(177,139,78,.12);
+}
+.submit{transition:.2s ease}
+.submit:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(23,21,19,.16)}
+@media(max-width:1000px){
+  .photo-gallery{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+  .hero-art{min-height:520px}
+}
+@media(max-width:560px){
+  .hero{min-height:auto}
+  .hero-art{min-height:430px}
+  .hero-photo-wrap{width:100%!important;transform:none!important}
+  .hero-photo-wrap img{border-radius:18px}
+  .photo-gallery{grid-template-columns:1fr!important;gap:18px!important}
+  .product-photo{aspect-ratio:1/1.06!important}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important}
+}
+</style>
+
+<style id="zx-page-nav">
+.zx-page-nav{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;padding:10px 16px;background:#171513;color:#fff;border-bottom:1px solid rgba(255,255,255,.12);font:700 9px/1.2 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;position:relative;z-index:49}
+.zx-page-nav a{padding:7px 9px;border-radius:999px;color:#fff;text-decoration:none;white-space:nowrap}
+.zx-page-nav a:hover{background:rgba(255,255,255,.12)}
+@media(max-width:760px){.zx-page-nav{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;white-space:nowrap}.zx-page-nav a{flex:0 0 auto}}
+</style></head>
+<body>
+
+<nav class="nav">
+  <a class="logo" href="index.html"><img alt="Zeeza Exports" src="images/scarves-img-24.webp" loading="eager" fetchpriority="high" decoding="async"></a>
+  <div class="links">
+    <a href="#collection">Collection</a>
+    <a href="#development">Development</a>
+    <a href="#process">Process</a>
+    <a class="cta" href="#wholesale-enquiry">Request a Quote</a>
+  </div>
+</nav>
+<div class="zx-page-nav" aria-label="Zeeza Exports collections">
+<a href="index.html">Home</a>
+<a href="shawls.html">Shawls</a>
+<a href="scarves.html">Scarves &amp; Stoles</a>
+<a href="kantha.html">Kantha</a>
+<a href="cotton-pants-leggings.html">Cotton Pants &amp; Leggings</a>
+<a href="antique-wall-hangings.html">Antique Wall Hangings</a>
+<a href="custom-development.html">Custom Development</a>
+</div>
+
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">PREMIUM STYLE EXAMPLE COLLECTION</div>
+    <h1>STOLES<br>&amp; SCARVES</h1>
+    <h2>Distinctive textile accessories for professional markets</h2>
+    <p>A representative showcase of styles and textile directions that Zeeza Exports can arrange for wholesalers in different qualities, colours, patterns and finishes, subject to confirmed requirements and sourcing.</p>
+    <div class="pills">
+      <span class="pill">Made to Order</span>
+      <span class="pill">Private Label</span>
+      <span class="pill">Global Dispatch</span>
+    </div>
+  </div>
+  <div class="hero-art photo-hero">
+  <div class="hero-photo-wrap">
+    <img src="images/scarves-img-25.webp" alt="Premium printed stole and scarf styled on mannequin for wholesale presentation" loading="eager" fetchpriority="high" decoding="async">
+    <span>FEATURED • STOLES &amp; SCARVES</span>
+  </div>
+</div>
+</section>
+
+<section class="strip">
+  <div><strong>Wide Range of Options</strong><span>Multiple qualities, patterns and finishes</span></div>
+  <div><strong>Custom Development</strong><span>Colours, dimensions and design direction</span></div>
+  <div><strong>Private Label</strong><span>Labels and packaging options</span></div>
+  <div><strong>Wholesale Supply</strong><span>Built around confirmed requirements</span></div>
+</section>
+
+<section class="wrap" id="collection">
+  <div class="tag">STOLES &amp; SCARVES COLLECTION</div>
+  <h2 class="title">A buyer-ready collection page</h2>
+  <p class="intro">Designed to help professional buyers quickly understand the range and move from visual review to a wholesale enquiry.</p>
+  <div class="cards">
+    <article class="card"><h3>Stoles</h3><p>Explore different visual directions, colour stories and finishing approaches for wholesale programmes.</p></article>
+    <article class="card"><h3>Scarves</h3><p>Review pattern-led and colour-led directions suitable for varied retail assortments.</p></article>
+    <article class="card"><h3>Custom Designs</h3><p>Discuss dimensions, colours and design direction around your confirmed requirements.</p></article>
+    <article class="card"><h3>Private Label</h3><p>Build a buyer-specific presentation with labels and packaging options.</p></article>
+  </div>
+</section>
+
+<section class="wrap visuals" id="product-gallery">
+  <div class="tag">STYLE EXAMPLE PRODUCT GALLERY</div>
+  <h2 class="title">A visual guide to sourcing possibilities</h2>
+  <p class="intro">These visuals are examples of the styles we can arrange; they are not presented as current stock, and final availability, quality and specifications are confirmed for each wholesale enquiry.</p>
+  
+<div class="gallery-toolbar">
+  <span class="active">ALL</span><span>STOLES</span><span>SCARVES</span><span>PRINTED</span><span>PLAIN &amp; SOLID</span><span>PREMIUM BLENDS</span>
+</div>
+<div class="photo-gallery">
+  <article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-26.webp" alt="Wool Stole — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Wool Stole</h3><p>Elegant patterns, soft and warm</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-27.webp" alt="Printed Scarf — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Printed Scarf</h3><p>Contemporary prints for modern retail</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-28.webp" alt="Solid Stole — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Solid Stole</h3><p>Timeless colours, everyday style</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-29.webp" alt="Viscose Scarf — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Viscose Scarf</h3><p>Lightweight, soft and versatile</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-30.webp" alt="Plain &amp; Solid Collection — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Plain &amp; Solid Collection</h3><p>Multiple colour options</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-31.webp" alt="Embroidered Scarf — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Embroidered Scarf</h3><p>Artisanal embroidery with fine finish</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-32.webp" alt="Silk Blend Stole — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Silk Blend Stole</h3><p>Premium drape and rich look</p></div>
+</article><article class="product-card">
+  <div class="product-photo"><img src="images/scarves-img-33.webp" alt="Printed Collection — Zeeza Exports wholesale collection" loading="lazy" decoding="async"><span>STYLE EXAMPLE</span></div>
+  <div class="product-copy"><div class="product-kicker">COLLECTION</div><h3>Printed Collection</h3><p>Wide range of patterns and designs</p></div>
+</article>
+</div>
+<div class="gallery-note"><strong>Sourcing note:</strong> Product visuals are representative examples intended to show the range of styles we can source or arrange in different qualities; buyers can request specific patterns, colours, fabrics, dimensions, quantities or private-label requirements.</div>
+
+</section>
+
+<section class="wrap" id="development">
+  <div class="tag">DEVELOPMENT</div>
+  <h2 class="title">Built around your buying requirements</h2>
+  <div class="buyer">
+    <div class="panel">
+      <h3>For professional buyers</h3>
+      <p>Use the collection as a starting point for assortment discussions, sourcing requests and confirmed wholesale requirements.</p>
+      <ul>
+        <li>Quality and finish discussions</li>
+        <li>Colour and pattern direction</li>
+        <li>Dimension and design requirements</li>
+        <li>Wholesale quantity discussions</li>
+      </ul>
+    </div>
+    <div class="panel">
+      <h3>For brand programmes</h3>
+      <p>Develop a more tailored presentation for fashion labels, boutiques and retail programmes, including private-label requirements.</p>
+      <ul>
+        <li>Custom development</li>
+        <li>Private-label presentation</li>
+        <li>Packaging and labelling options</li>
+        <li>Global dispatch planning</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="process">
+  <div class="tag">BUYER PROCESS</div>
+  <h2 class="title">Simple from enquiry to supply</h2>
+  <div class="process">
+    <div class="step"><b>01</b><h3>Send requirements</h3><p>Share the styles, qualities, colours or dimensions you are considering.</p></div>
+    <div class="step"><b>02</b><h3>Review options</h3><p>Discuss suitable directions and the details needed for your programme.</p></div>
+    <div class="step"><b>03</b><h3>Confirm development</h3><p>Finalize the agreed design direction, labelling or packaging requirements.</p></div>
+    <div class="step"><b>04</b><h3>Plan supply</h3><p>Move forward around the confirmed wholesale requirements and dispatch plan.</p></div>
+  </div>
+</section>
+
+<section class="wrap enquiry" id="wholesale-enquiry">
+  <div class="formbox">
+    <div>
+      <div class="tag">STYLE EXAMPLE ENQUIRY</div>
+      <h2 class="title">Start your Stoles &amp; Scarves enquiry</h2>
+      <p class="intro">Send the basic requirements and use the message field for quality, quantity, colour, design or private-label details.</p>
+    </div>
+    <form class="form" onsubmit="return false;">
+      <div class="grid">
+        <div class="field"><label>Buyer / Company</label><input type="text" placeholder="Company name"></div>
+        <div class="field"><label>Country</label><input type="text" placeholder="Country"></div>
+        <div class="field"><label>Product</label><select><option>Stoles</option><option>Scarves</option><option>Both</option></select></div>
+        <div class="field"><label>Quantity</label><input type="text" placeholder="Estimated quantity"></div>
+        <div class="field full"><label>Requirements</label><textarea placeholder="Quality, colours, patterns, dimensions, private label or other requirements"></textarea></div>
+      </div>
+      <button class="submit" type="submit">SUBMIT WHOLESALE ENQUIRY</button>
+      <div class="note">Please use the contact details provided by Zeeza Exports to submit this enquiry.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <strong>Zeeza Exports</strong>
+  <p>Stoles &amp; scarves presented for professional wholesale sourcing, custom development, private label and global dispatch.</p>
+  <div style="font-size:10px;letter-spacing:.16em;color:#777;text-transform:uppercase">Wholesale Collection • Stoles &amp; Scarves</div>
+</footer>
+
+</body>
+</html>
